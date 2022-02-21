@@ -11,5 +11,7 @@ Monitoring of DELL hardware via DELL OpenManager:
 * Memory devices
 * Virtual disks
 
-The XML file has been exported with Zabbix-3.0 and includes the value
-maps needed by the template.
+Fixed for Zabbix v6.0.
+
+1. Import template
+2. Apply template to host. *ALSO* apply "ICMP Ping" template.
